@@ -1,35 +1,22 @@
-🏦 Bank Account Management System
+🏦 Bank Account Management System using Java and MySQL
+This project implements a simple bank account management system where users can create, update, delete, and view account details through a command-line interface. The system ensures persistent data storage using MySQL and organizes code in a modular structure for maintainability.
 
-A simple Java + MySQL project to manage bank accounts — allowing users to create, update, delete, and view account details through a command-line interface.
+Features
 
-🚀 Features
+Account Management → Create, update, and delete bank accounts.
 
--Create new bank accounts
--Deposit and withdraw money
--Check account balance
--View all customer accounts
--Delete an account
--Persistent data storage using MySQL
--Modular code with multiple packages
+Transactions → Deposit and withdraw money, and check account balances.
 
-🧩 Project Structure
+View Accounts → Display all customer accounts in the system.
 
-Bank_acc_management/
-│
-├── lib/
-│   └── mysql-connector-j-9.4.0.jar      # JDBC driver
-│
-├── src/
-│   ├── Main.java                        # Entry point
-│   ├── database/DBconnection.java        # MySQL connection
-│   ├── model/Account.java                # Data model
-│   ├── service/AccountService.java       # Business logic
-│   └── ui/MainMenu.java                  # CLI menu
-│
-└── README.md
+Persistent Storage → Store account data securely in MySQL.
 
-⚙️ Technologies Used
+Modular Design → Separate packages for database connection, models, business logic, and CLI interface.
 
--Java (JDK 21)
--MySQL Database
--JDBC Connector
+Technologies Used
+
+Java (JDK 21) → Core language for project development.
+
+MySQL Database → Stores account and transaction data.
+
+JDBC Connector → Connects Java application with MySQL database.
